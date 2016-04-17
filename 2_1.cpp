@@ -31,6 +31,7 @@ node * init(int arr[], int n)
 		p -> next = newNode;
 		p = newNode;
 	}
+	p -> next = NULL;
 	return head;
 }
 
