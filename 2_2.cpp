@@ -57,6 +57,7 @@ void print(node * head)
 		cout << head -> data << "->" ;
 		head = head -> next;
 	}
+	cout << "NULL" << endl;
 }
 
 int main()
